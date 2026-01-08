@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "Commonjs",
+    "esModuleInterop": true, // Dùng import thay require
+    "resolveJsonModule": true, // Cho phép import file JSON
+    "strict": true,
+    "typeRoots": ["./node_modules/@types", "./types"]
+  }
+}
